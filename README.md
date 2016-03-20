@@ -1,4 +1,5 @@
-#[Buzzwordizer](http://www.buzzwordizer.com)
+##Buzzwordizer
+[http://www.buzzwordizer.com](http://www.buzzwordizer.com)
 
 Site is under site/
 
