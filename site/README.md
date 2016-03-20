@@ -9,6 +9,6 @@ Either
 or
 `npm install -g gulp && gulp`
 
-To do minifcation, run `gulp --production`
+To do minification, run `gulp --production`
 
 The site root should be generated at `public/`.
