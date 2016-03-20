@@ -1,4 +1,4 @@
-#The [Buzzwordizer](http://www.buzzwordizer.com) API
+#The Buzzwordizer API
 ##Requirements
 * nodejs
 
@@ -6,7 +6,7 @@
 `npm install`
 
 ##Start
-nodejs api.js
+`nodejs ./api.js`
 
 ##Usage
-curl -X POST localhost:8080 -d'{"INPUT": "i am a software engineer working on server side applications"}' -H 'Content-Type: application/json'
+`curl -X POST localhost:8080 -d'{"INPUT": "i am a software engineer working on server side applications"}' -H 'Content-Type: application/json'`

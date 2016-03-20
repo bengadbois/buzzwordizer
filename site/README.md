@@ -1,4 +1,4 @@
-#The main [Buzzwordizer](http://www.buzzwordizer.com) site
+#The Buzzwordizer site
 ##Requirements
 * nodejs, graphicsmagick, imagemagick (for image resizing)
 
