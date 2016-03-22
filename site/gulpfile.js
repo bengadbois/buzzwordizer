@@ -79,13 +79,6 @@ gulp.task('resize-images', function() {
   }))
   .pipe(gulp.dest('public/assets/media/800'))
 
-  .pipe(imageResize({
-     width: 400,
-     height: 400,
-     crop: true
-  }))
-  .pipe(gulp.dest('public/assets/media/400'))
-
 });
 
 
