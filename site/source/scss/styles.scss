@@ -32,9 +32,6 @@ $bodyFont: 'Open Sans', serif;
 
 #title-container{
   @media (min-width: 1px) {
-    background: url(/assets/media/400/backdrop.jpg)  no-repeat center center;
-  }
-  @media (min-width: 401px) {
     background: url(/assets/media/800/backdrop.jpg)  no-repeat center center;
   }
   @media (min-width: 801px) {
