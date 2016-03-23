@@ -2,7 +2,7 @@ var gulp  = require('gulp'),
   concat = require('gulp-concat'),
   changed = require('gulp-changed'),
   gulpif = require('gulp-if'),
-  minifycss = require('gulp-minify-css'),
+  cleanCSS = require('gulp-clean-css'),
   minifyHTML = require('gulp-minify-html'),
   multInject = require('gulp-multinject'),
   sass   = require('gulp-sass'),
@@ -36,7 +36,7 @@ gulp.task('build-css', function() {
   return gulp.src('source/scss/**/*.scss')
     .pipe(plumber())
     .pipe(sass())
-    .pipe(gulpif(production, minifycss()))
+    .pipe(gulpif(production, cleanCSS({compatibility: '*'})))
     .pipe(gulp.dest('public/assets/css'));
 });
 
