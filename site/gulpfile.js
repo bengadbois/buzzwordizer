@@ -18,11 +18,13 @@ var production = !!(argv.production); // true if --production flag is used
 
 var devCSSLibs = [
   '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css',
-  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css'
+  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css',
+  '//cdn.jsdelivr.net/font-hack/2.019/css/hack.min.css'
 ]
 var prodCSSLibs = [
   '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css',
-  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'
+  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css',
+  '//cdn.jsdelivr.net/font-hack/2.019/css/hack.min.css'
 ]
 
 // clean out directories that will be built
