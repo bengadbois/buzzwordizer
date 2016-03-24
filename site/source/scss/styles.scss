@@ -24,6 +24,10 @@ $bodyFont: 'Open Sans', serif;
   background:rgba(255,255,255,0.3);
 }
 
+.code {
+  font-family: Hack, monospace;
+}
+
 #buzzwordizer-subtitle,
 #buzzwordizer-title {
   font-family: $titleFont;
@@ -57,6 +61,11 @@ $bodyFont: 'Open Sans', serif;
 }
 
 #footer {
+  background: $darkGrey;
+  color: $almostWhite;
+}
+
+#api-container {
   background: $darkGrey;
   color: $almostWhite;
 }
