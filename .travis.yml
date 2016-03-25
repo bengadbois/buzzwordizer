@@ -1,0 +1,10 @@
+language: node_js
+# test multiple versions
+node_js:
+  - "0.10"
+before_script:
+  - npm install -g gulp
+env:
+  - TEST_DIR=site
+  - TEST_DIR=api
+script: cd $TEST_DIR && npm install
