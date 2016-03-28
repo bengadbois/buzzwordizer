@@ -5,7 +5,7 @@ $almostBlack: #2F2F2F;
 $black: #000000;
 
 //TODO pick something better for title or make vector img
-$titleFont: 'Roboto Slab', serif;
+$titleFont: 'Lora', serif;
 $bodyFont: 'Open Sans', serif;
 
 #body{
@@ -26,6 +26,18 @@ $bodyFont: 'Open Sans', serif;
 
 .code {
   font-family: Hack, monospace;
+}
+
+.large-icon{
+  font-size: 7rem;
+}
+
+.medium-icon{
+  font-size: 5rem;
+}
+
+.title {
+  font-family: $titleFont;
 }
 
 #buzzwordizer-subtitle,
@@ -56,8 +68,9 @@ $bodyFont: 'Open Sans', serif;
 }
 
 #logo {
-  max-width:100%;
-  max-height:100%;
+  max-width:50%;
+  min-height:10%;
+  max-height:40%;
 }
 
 #footer {
