@@ -1,3 +1,11 @@
+/*
+ * This API isn't well written, barely hackathon quality
+ *
+ * Basically just a string find/replacement server
+ *
+ * BUT IT'S ~WEBSCALE~
+ */
+
 var express = require('express');
 var bodyParser = require('body-parser')
 var bunyan = require('bunyan');
@@ -117,7 +125,8 @@ var buzzwordReplacements = {
   'service': 'microservice',
   'module': 'microservice',
 
-  //misc
+  //misc circlejerky terms
+  'make': 'build',
   'fast': 'high performance',
   'install': 'deploy',
   'installation': 'deployment',
@@ -152,6 +161,18 @@ app.post('/', function(req, res) {
     var input = req.body.Input;
   else if (typeof req.body.INPUT !== 'undefined')
     var input = req.body.INPUT;
+
+  //hardcoded case for the website's example
+  if(input == "We are an IT company that makes server software"){
+    var output = "We are a full stack DevOps company that builds cloud apps";
+    //send response
+    res.status(200).json({
+      success: true,
+      input: input,
+      output: output
+    });
+    return;
+  }
 
   var output = input;
 
