@@ -4,3 +4,6 @@
 Site is under site/
 
 API is under api/
+
+##License
+[MIT](https://github.com/bengadbois/buzzwordizer/blob/master/LICENSE)
