@@ -7,6 +7,7 @@ env:
 - TEST_DIR=site
 - TEST_DIR=api
 script: cd $TEST_DIR && npm install
+before_deploy: echo "" > .gitignore
 deploy:
   provider: openshift
   user: admin@buzzwordizer.com
