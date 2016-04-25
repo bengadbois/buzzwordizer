@@ -1,10 +1,22 @@
 language: node_js
-# test multiple versions
 node_js:
-  - "0.10"
+- '0.10'
 before_script:
-  - npm install -g gulp
+- npm install -g gulp
 env:
-  - TEST_DIR=site
-  - TEST_DIR=api
+- TEST_DIR=site
+- TEST_DIR=api
 script: cd $TEST_DIR && npm install
+deploy:
+  provider: openshift
+  user: admin@buzzwordizer.com
+  password:
+    secure: W4r+jhQi1aKiSOc9aImnpJUv1BmRT1mq+LdKgUPv3aHAM4zrYe1jfKymrwbtLsr+RTHOLw+NgcUBWWILe7GVOd+xzpgOr9o+6WSjSBS8nfBixbNZDJFmiL4FE/FrsIzYqxuqbOtyXQy5EPO4O3+9cavMBddxO0tJtpOoUxVnyHMC05D93NcaQfpQzNB7Tc1IagSlCoRjp/Rx6B9mAORzrMS2Z1pXgjoCRdRadHFWTPUPSkZolJs0ciNcX11BOkvzqEFpKwGS0NerrVvSrxVdqJIaRE5GqC2nF9lD4gmxhR4jejnqDd2DahBVDWdj/H+mkuP4aApa8+4Y0P38lFDZImim8o4H91aM+yUsmvjZFsEi9vwQCjG/ML6GcSHPFZ2JhONAGc34c54WF3rHTCEbl2J+4wEfzbT2MLO/N709TJg39HDt4ewbR68du1dDRjLf/R5mzPxE/uCknJZDPl880XdNsxuRebhCgQYye+gq9jZ8RJsCSA74De4yPYiv0HJhhIENBmc16RAkH+E1W6GX6k0I7qJzlID086t4f7dhc+U+AuRg3GWBB24mzE9DM+kQUvVttDgSLINLiPXgr5pEBHSZ8totjfTxFVtlX4aov+a/eb9JsCuLVqavjjqqMlt7/FRDs1OvYTo1M7MUfi3p7hsFUMxfSkgyTlqwreu9fbs=
+  domain: buzzwordizer
+  app:
+    web: web
+    api: api
+  on:
+    repo: bengadbois/buzzwordizer
+    branch: master
+    node: '0.10'
