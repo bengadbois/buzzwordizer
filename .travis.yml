@@ -6,7 +6,7 @@ before_script:
 env:
 - TEST_DIR=site
 - TEST_DIR=api
-script: cd $TEST_DIR && npm install
+script: cd $TEST_DIR && npm set progress=false && npm install
 before_deploy: echo "" > .gitignore
 deploy:
   provider: openshift
