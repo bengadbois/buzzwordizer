@@ -12,12 +12,8 @@ deploy:
   provider: openshift
   user: admin@buzzwordizer.com
   password:
-    secure: W4r+jhQi1aKiSOc9aImnpJUv1BmRT1mq+LdKgUPv3aHAM4zrYe1jfKymrwbtLsr+RTHOLw+NgcUBWWILe7GVOd+xzpgOr9o+6WSjSBS8nfBixbNZDJFmiL4FE/FrsIzYqxuqbOtyXQy5EPO4O3+9cavMBddxO0tJtpOoUxVnyHMC05D93NcaQfpQzNB7Tc1IagSlCoRjp/Rx6B9mAORzrMS2Z1pXgjoCRdRadHFWTPUPSkZolJs0ciNcX11BOkvzqEFpKwGS0NerrVvSrxVdqJIaRE5GqC2nF9lD4gmxhR4jejnqDd2DahBVDWdj/H+mkuP4aApa8+4Y0P38lFDZImim8o4H91aM+yUsmvjZFsEi9vwQCjG/ML6GcSHPFZ2JhONAGc34c54WF3rHTCEbl2J+4wEfzbT2MLO/N709TJg39HDt4ewbR68du1dDRjLf/R5mzPxE/uCknJZDPl880XdNsxuRebhCgQYye+gq9jZ8RJsCSA74De4yPYiv0HJhhIENBmc16RAkH+E1W6GX6k0I7qJzlID086t4f7dhc+U+AuRg3GWBB24mzE9DM+kQUvVttDgSLINLiPXgr5pEBHSZ8totjfTxFVtlX4aov+a/eb9JsCuLVqavjjqqMlt7/FRDs1OvYTo1M7MUfi3p7hsFUMxfSkgyTlqwreu9fbs=
+    secure: mNoEGKK1lW7p4GRRHCzgxbXLSsz77lF9uh6GgkpL3Y0Ocm+0wZxiFiBy83uKoREgpDyseGfAAHrru7PXrQNe8m2yPS+1uFbzBnqGGQ71mKYmhRPVYa2GgaSgmfgtKg9S02d61Mr9DTARiv+pQcPCVSMc5xPktyPQ+qKyc6iObHjI/UV+zhSkdscbsgcgcRMeN2AOqr6vt9YtrE/c6ro2Ju2HpydLwPQ91La9Ts9AonEv+/kEQkZB1B+WUiPzAoy+odHiH4WjwjytQTaVyj8daImVmOTRK4+XjC0LVueVnLNbtiyhZNY+tKjcaFypPbze9olEmcm22pJU9fcKARnnzfJFErQkqKIzrvx7yR7DCaP8V8n840yHoilFInxxaMrXCk81oFNq83YDE7QYhEwp139wQjVfC/yP+dXyhdZFLTfqkSGxAbO0dSWl3ynYygglhBRknP2QXYCd6EZ3bM3WhrKGrli0kgOrd1aEoM4qSIKGQMjEtuEJizajPGPx4ZmQh/V4RPyrfQvZl/eC+f9sQt1jVxLvqDj6ApvIqTz57NsckIHbx0FcODcBLMrxcKgu1r+ZaOsZP3WK+Kpypbci4oJ7uFP+GyrM7Pct3t1wZIkuKa2jmB7+MYE/caxW6WWD56ltJZCDXughI8q0NApYhqlm6njd9xu3VnOR1U/mjWI=
+  app: web
   domain: buzzwordizer
-  app:
-    web: web
-    api: api
   on:
     repo: bengadbois/buzzwordizer
-    branch: master
-    node: '0.10'
