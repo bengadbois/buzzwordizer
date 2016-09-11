@@ -2,7 +2,6 @@
 baseurl = "http://www.buzzwordizer.com/"
 languageCode = "en-us"
 title = "Buzzwordizer - Buzzwords As A Service"
-theme = "buzzwordizer-hugo-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-75586345-1"
 
@@ -41,10 +40,10 @@ googleAnalytics = "UA-75586345-1"
     # Navigation
     [params.navigation]
         brand = "Buzzwordizer"
-        services = "Features"
-        portfolio = "Portfolio"
+        features = "Features"
+        example = "Example"
         about = "About"
-        team = "Try Now"
+        contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -104,7 +103,8 @@ googleAnalytics = "UA-75586345-1"
         code = "curl -X POST http://api.buzzwordizer.com -H'Content-Type: application/json' -d'{\"input\": \"We are an IT company that makes server software\"}'"
 
     # About section
-    [params.about] enable = true
+    [params.about]
+        enable = true
         title = "About"
         subtitle = "Buzzwordizer has been the driving force and supplier behind this era's buzzwords. Here's a highlight of our accomplishments and successes."
         endpoint = "Be part<br>of our<br>story!"
