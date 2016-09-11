@@ -7,20 +7,16 @@
         {{ partial "nav.html" . }}
         {{ partial "hero.html" . }}
 
-        {{ if .Site.Params.services.enable }}
-            {{ partial "services.html" . }}
+        {{ if .Site.Params.features.enable }}
+            {{ partial "features.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.portfolio.enable }}
-            {{ partial "portfolio.html" . }}
+        {{ if .Site.Params.example.enable }}
+            {{ partial "example.html" . }}
         {{ end }}
 
         {{ if .Site.Params.about.enable }}
             {{ partial "about.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.team.enable }}
-            {{ partial "team.html" . }}
         {{ end }}
 
         {{ if .Site.Params.clients_list.enable }}
@@ -33,10 +29,6 @@
 
         {{ if .Site.Params.footer.enable }}
             {{ partial "footer.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.portfolio.enable }}
-            {{ partial "modals.html" . }}
         {{ end }}
 
         {{ partial "js.html" . }}

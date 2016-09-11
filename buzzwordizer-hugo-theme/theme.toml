@@ -1,14 +1,14 @@
 name = "Agency"
 license = "Apache License 2.0"
-licenselink = "//github.com/digitalcraftsman/hugo-agency-theme/blob/master/LICENSE"
+licenselink = "//github.com/bengadbois/buzzwordizer-hugo-theme/blob/master/LICENSE"
 description = "A one page portfolio for companies and freelancers."
-homepage = "//github.com/digitalcraftsman/hugo-agency-theme"
+homepage = "//github.com/bengadbois/buzzwordizer-hugo-theme"
 tags = ["portfolio", "company", "contact form", "timeline", "google analytics"]
 min_version = 0.15
 
 [author]
-  name = "digitalcraftsman"
-  homepage = "//github.com/digitalcraftsman"
+  name = "bengadbois"
+  homepage = "//github.com/bengadbois"
 
 # If porting an existing theme
 [original]

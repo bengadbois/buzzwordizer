@@ -24,27 +24,21 @@
                 </li>
                 {{ end }}
 
-                {{ if .Site.Params.services.enable }}
+                {{ if .Site.Params.features.enable }}
                 <li>
-                    <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll" href="#features">{{ with .Site.Params.navigation.features }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
-                {{ if .Site.Params.portfolio.enable }}
+                {{ if .Site.Params.example.enable }}
                 <li>
-                    <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll" href="#example">{{ with .Site.Params.navigation.example }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
                 {{ if .Site.Params.about.enable }}
                 <li>
                     <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
-
-                {{ if .Site.Params.team.enable }}
-                <li>
-                    <a class="page-scroll" href="#team">{{ with .Site.Params.navigation.team }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 

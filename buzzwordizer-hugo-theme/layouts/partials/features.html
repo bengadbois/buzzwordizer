@@ -1,14 +1,14 @@
-{{ "<!-- Services -->" | safeHTML }}
-<section id="services">
+{{ "<!-- Features -->" | safeHTML }}
+<section id="features">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
-                <h3 class="section-subheading text-muted">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+                <h2 class="section-heading">{{ with .Site.Params.features.title }}{{ . }}{{ end }}</h2>
+                <h3 class="section-subheading text-muted">{{ with .Site.Params.features.subtitle }}{{ . | markdownify }}{{ end }}</h3>
             </div>
         </div>
 
-        {{ range .Site.Params.services.row }}
+        {{ range .Site.Params.features.row }}
         <div class="row text-center">
             {{ range .list }}
             <div class="col-md-4">
