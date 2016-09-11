@@ -1,6 +1,3 @@
 ##Buzzwordizer
-This project has been split apart into two different repositories.
 
-[Site](https://github.com/bengadbois/buzzwordizer-web)
-
-[API](https://github.com/bengadbois/buzzwordizer-api)
+Buzzwordizer site is using Hugo. The theme is under ```buzzwordizer-hugo-theme/```.
