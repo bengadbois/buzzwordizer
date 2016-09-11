@@ -1,3 +1,4 @@
 ##Buzzwordizer
 
-Buzzwordizer site is using Hugo. The theme is under ```buzzwordizer-hugo-theme/```.
+#Site
+Buzzwordizer site built using [Hugo](https://gohugo.io/). The theme is under ```buzzwordizer-hugo-theme/```.
