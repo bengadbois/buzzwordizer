@@ -1,10 +1,10 @@
 # Site settings
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://www.buzzwordizer.com/"
 languageCode = "en-us"
-title = "Agency"
+title = "Buzzwordizer - Buzzwords As A Service"
 theme = "buzzwordizer-hugo-theme"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-75586345-1"
 
 [params]
 
@@ -17,8 +17,8 @@ googleAnalytics = ""
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Your name"
-    description = "Your description"
+    name = "Buzzwordizer"
+    description = "Buzzwordizer delivers global cloudscale buzzwords"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -31,7 +31,7 @@ googleAnalytics = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "buzzwordizer@gmail.com"
 
     # Link custom assets relative to /static
     custom_css = []
@@ -40,11 +40,11 @@ googleAnalytics = ""
 
     # Navigation
     [params.navigation]
-        brand = "The Agency"
-        features = "Features"
-        example = "Example"
+        brand = "Buzzwordizer"
+        services = "Features"
+        portfolio = "Portfolio"
         about = "About"
-        contact = "Contact"
+        team = "Try Now"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -57,56 +57,56 @@ googleAnalytics = ""
     #    weight = 10
 
     # postpended links
-    [[menu.postpend]]
-        url = "http://gohugo.io"
-        name = "External link"
-        weight = 10
+    # [[menu.postpend]]
+    #    url = "http://gohugo.io"
+    #    name = "External link"
+    #    weight = 10
 
 
     # Hero section
     [params.hero]
         # To change the background image of the hero, replace 'header-bg.jpg' in
         # the 'static/img' folder.
-        title = "Welcome To Our Studio!"
-        subtitle = "It's nice to meet you"
-        buttonText = "Tell me more"
+        title = "BUZZWORDIZER"
+        subtitle = "Buzzwords As A Service"
+        buttonText = "Go Cloudscale Now"
 
 
     # Features section
     [params.features]
         enable = true
         title = "Features"
-        subtitle = "Lorem ipsum dolor sit amet consectetur."
+        # subtitle = "Lorem ipsum dolor sit amet consectetur."
 
         [[params.features.row]]
 
             [[params.features.row.list]]
                 icon = "fa-globe"
-                title = "E-Commerce"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                title = "Enterprise Grade Buzzwords"
+                description = "Don't choose between scaling up or scaling out. Choose cloudscale - for when webscale fails to perform to your needs. Always on continuous buzzword delivery. 999.999% uptime guaranteed."
 
             [[params.features.row.list]]
                 icon = "fa-plug"
-                title = "API"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                title = "Powerful Microservice Integration"
+                description = "Step up your service oriented architecture with the next generation cross platform API. Synergize with your existing infrastructure. Focus on your core competency and we'll deliver the bleeding edge buzzwords."
 
             [[params.features.row.list]]
                 icon = "fa-heartbeat"
-                title = "User Love"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                title = "Unparalleled User Engagement"
+                description = "Trying to grow your userbase? We've got you covered. Growth hacking isn't about creativity, it's about data driven buzzwords. Get ahead of the curve and beat out the competition with unrestricted tier one buzzwords."
+
 
     # Example section
     [params.example]
         enable = true
         title = "Example"
-        subtitle = "Subtitle goes here"
-        code = "Lorem ipsum dolor sit amet consectetur."
+        subtitle = "Try It Now!"
+        code = "curl -X POST http://api.buzzwordizer.com -H'Content-Type: application/json' -d'{\"input\": \"We are an IT company that makes server software\"}'"
 
     # About section
-    [params.about]
-        enable = true
+    [params.about] enable = true
         title = "About"
-        subtitle = "Lorem ipsum dolor sit amet consectetur."
+        subtitle = "Buzzwordizer has been the driving force and supplier behind this era's buzzwords. Here's a highlight of our accomplishments and successes."
         endpoint = "Be part<br>of our<br>story!"
 
         # The events will be listed from the top to the bottom.
@@ -114,39 +114,39 @@ googleAnalytics = ""
         # Replace them with your own.
         [[params.about.events]]
             img = "1.jpg"
-            date = "2009-2011"
-            title = "Our Humble Beginnings"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+            date = "Late 2008"
+            title = "Launch"
+            description = "As the economy struggled, Buzzwordizer launched as a tool to help the recently unemployed seduce LinkedIn recruiters. Little did we know how far it would go."
 
         [[params.about.events]]
             img = "2.jpg"
-            date = "March 2011"
-            title = "An Agency is Born"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+            date = "2009"
+            title = "\"The Cloud\""
+            description = "During design planning, it became clear engineers were incapable of drawing servers, and their representations ended up looking like squiggly ovals. Realizing the liguistic market gap, we coined it \"the cloud\" and the industry adoped it."
 
         [[params.about.events]]
             img = "3.jpg"
-            date = "December 2012"
-            title = "Our Humble Beginnings"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+            date = "Early 2010"
+            title = "Opening Up Our \"Disruptive\" API"
+            description = "Our public API went live. Buzzwordizer's immediate market success against it's larger competitors left us speechless. Realizing the potential of \"disruptive\", we adopted and pushed forward the term, leading by example."
 
         [[params.about.events]]
             img = "4.jpg"
-            date = "July 2014"
-            title = "Phase Two Expansion"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+            date = "Mid 2012"
+            title = "\"Big Data\""
+            description = "On the way to recovery from <a href='http://www.businessinsider.com/people-think-stormy-weather-affects-cloud-computing-2012-8'> the apparent confusion in what \"the cloud\" really was</a> , we wanted to keep our next mainstream buzzword so simple a five year old could understand it. Two syllables and seven letters later, and this cross industry term was everywhere."
 
         [[params.about.events]]
             img = "5.jpg"
-            date = "July 2015"
-            title = "Phase Three Expansion"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+            date = "Early 2014"
+            title = "\"Growth Hacking\""
+            description = "As we continued to expand into more diverse industries, we wanted a new term that included \"hack\", but was accessible by people whose understanding of hacking was limited to what they watched on CSI. \"Growth hacking\" was born, and it spread faster than you can say \"MongoDB is webscale\"."
 
         [[params.about.events]]
             img = "6.jpg"
-            date = "September 2016"
-            title = "Phase Four Expansion"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+            date = "Start of 2015"
+            title = "\"Unicorn Startup\""
+            description = "\"Unicorn Startup\" wasn't supposed to leave the Buzzwordizer linguistic research lab. It was a byproduct of brainstorming the most unrelated terms possible. However, it escaped into the public, and we decided to run with it."
 
         [[params.about.events]]
             img = "7.jpg"
@@ -180,49 +180,37 @@ googleAnalytics = ""
     # Contact section
     [params.contact]
         enable = true
-        title = "Contact us"
-        subtitle  = "Lorem ipsum dolor sit amet consectetur."
+        title = "Contact Us"
+        subtitle  = "If you are looking for an enterprise or custom solution"
         buttonText = "Send message"
 
         # 'warning' defines error messages for invalid inputs
         [params.contact.form.name]
-            text = "Your Name *"
+            text = "Name *"
             warning = "Please enter your name."
 
         [params.contact.form.email]
-            text = "Your Email *"
+            text = "Email *"
             warning = "Please enter your email address."
 
         [params.contact.form.phone]
-            text = "Your Phone *"
+            text = "Phone *"
             warning = "Please enter your phone number."
 
         [params.contact.form.message]
-            text = "Your Message *"
+            text = "Message *"
             warning = "Please enter a message."
 
 
     # Footer section
     [params.footer]
         enable = true
-        copyright = "Published under the Apache License 2.0."
+        copyright = "Buzzwordizer <i class='fa fa-trademark'></i> <i class='fa fa-copyright'></i> <i class='fa fa-registered'></i> All Rights Reserved <i class='fa fa-creative-commons'></i>"
 
         [[params.footer.social]]
-            icon = "fa-twitter"
-            link = "#"
+            icon = "fa-github"
+            link = "https://github.com/bengadbois/buzzwordizer"
 
         [[params.footer.social]]
-            icon = "fa-facebook"
-            link = "#"
-
-        [[params.footer.social]]
-            icon = "fa-linkedin"
-            link = "#"
-
-        [[params.footer.quicklinks]]
-            text = "Privacy Policy"
-            link = "#"
-
-        [[params.footer.quicklinks]]
-            text = "Terms of Use"
-            link = "#"
+            icon = "fa-area-chart"
+            link = "https://buzzwordizer.statuspage.io/"
