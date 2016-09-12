@@ -148,15 +148,9 @@ googleAnalytics = "UA-75586345-1"
             title = "\"Unicorn Startup\""
             description = "\"Unicorn Startup\" wasn't supposed to leave the Buzzwordizer linguistic research lab. It was a byproduct of brainstorming the most unrelated terms possible. However, it escaped into the public, and we decided to run with it."
 
-        [[params.about.events]]
-            img = "7.jpg"
-            date = "December 2016"
-            title = "Phase Five Expansion"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
     # Client section
     [params.clients_list]
-        enable = true
+        enable = false
 
         # All the clients' logos are stored under 'static/img/logos'.
         # Replace them with your clients's logos.
