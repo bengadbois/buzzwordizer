@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.buzzwordizer.com/"
+baseurl = "https://www.buzzwordizer.com/"
 languageCode = "en-us"
 title = "Buzzwordizer - Buzzwords As A Service"
 # Enter your tracking code to enable Google Analytics
