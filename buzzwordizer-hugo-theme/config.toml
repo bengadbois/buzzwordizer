@@ -199,7 +199,7 @@ googleAnalytics = "UA-75586345-1"
     # Footer section
     [params.footer]
         enable = true
-        copyright = "Buzzwordizer <i class='fa fa-trademark'></i> <i class='fa fa-copyright'></i> <i class='fa fa-registered'></i> All Rights Reserved <i class='fa fa-creative-commons'></i>"
+        copyright = "Buzzwordizer <i class='fa fa-trademark'></i> <i class='fa fa-copyright'></i> <i class='fa fa-registered'></i> All Rights Reserved</i>"
 
         [[params.footer.social]]
             icon = "fa-github"
